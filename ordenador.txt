@@ -1,0 +1,80 @@
+class Ordenador{
+var precio : Int = 0
+var nombre : String = ""
+var ram = [Ram]()
+var procesador = Procesador()
+var almacenamiento = [Almacenamiento]()
+var grafica = Grafica()
+}
+class Ram{
+    var capacidad : String = ""
+    var fabricante : String = ""
+    var rgb : String = ""
+}
+class Procesador{
+    var velocidad : String = ""
+    var ncores : Int = 0
+    var nhilos : Int = 0
+    var fabricante : String = ""
+}
+class Almacenamiento {
+    var capacidad : String = ""
+    var fabricante : String = ""
+    var unidad : String = ""
+}
+class Grafica{
+    var ram : String = ""
+    var consumo : String = ""
+    var cores : Int = 0
+    var velocidad : String = ""
+}
+
+var ordenador = Ordenador()
+ordenador.precio = 1000
+ordenador.nombre = "OMEN 2000"
+
+var ram1 = Ram()
+var ram2 = Ram()
+
+ram1.capacidad = "16gb"
+ram1.fabricante = "HP"
+ram1.rgb = "Si"
+
+ram2.capacidad = "8gb"
+ram2.fabricante = "HP"
+ram2.rgb = "Si"
+
+ordenador.ram += [ram1,ram2]
+
+var proc = Procesador()
+
+proc.velocidad = "200GHz"
+proc.ncores = 26
+proc.nhilos = 15
+proc.fabricante = "HP"
+
+ordenador.procesador = proc
+
+var almacenamiento1 = Almacenamiento()
+var almacenamiento2 = Almacenamiento()
+
+almacenamiento1.capacidad = "500GB"
+almacenamiento1.fabricante = "HP"
+almacenamiento1.unidad = "HD"
+
+almacenamiento2.capacidad = "250GB"
+almacenamiento2.fabricante = "HP"
+almacenamiento2.unidad = "HD"
+
+ordenador.almacenamiento += [almacenamiento1,almacenamiento2]
+
+var grafica = Grafica()
+
+grafica.ram = "16GB"
+grafica.consumo = "260W"
+grafica.cores = 12
+grafica.velocidad = "1.683 MHz"
+
+ordenador.grafica = grafica
+
+dump(ordenador)

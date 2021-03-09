@@ -1,0 +1,161 @@
+/*var altura = 8
+var base = 5
+
+var area = altura * base
+var perimetro = (altura + base)*2
+
+print("area es " , area)
+print("perimetro es " , perimetro)
+ */
+
+/*import Foundation
+let c1 = 5
+let c2 =4 
+
+var c1cuadrado = pow(Double(c1),2)
+var c2cuadrad = pow(Double(c2),2)
+var h = sqrt((Double(c1cuadrado)+Double(c2cuadrado)))
+
+
+print(h)
+ */
+
+/*var num1= 4
+var num2= 8
+
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1/ num2)
+ */
+
+/*var farenheit = 100
+
+var celsius = ((Double(farenheit)-32)*5/9)
+print(celsius)*/
+
+/*let sueldo = Double(1500)
+let ventas = 100
+let comision = (Double(ventas) * 0.10) * 3
+var sueldot = sueldo + comision
+print(comision)
+print(sueldot)*/
+
+/*let examen1 = Double(6.6)
+let examen2 = Double(7.8)
+let examen3 = Double(4.5)
+let exfinal = Double(4.9)
+let trf = Double(6)
+var porex = ((examen1 + examen2 + examen3)/3) * 0.55
+var porexf = exfinal * 0.3
+var portrf = trf * 0.15
+
+print(porexf + porex + portrf)*/
+
+/*let correctas = 6
+let incorrectas = 2
+let blanco = 2
+
+var suma = (correctas * 5) + (incorrectas * -1)
+print((suma*10)/50)
+*/
+
+/*let sueldo = 1500
+let horas = 8
+
+print(sueldo+(horas * 5))
+ */
+
+/*var num = 0
+if num < 0{
+    print("numero negativo")
+}
+else if num > 0 {
+    print("numero positivo")
+}
+else{
+    print("numero es 0")
+}
+*/
+
+/*var num = 5
+if num % 2 == 0{
+   print("Numero Par")
+}
+else{
+    print("Numero Impar")
+}
+ */
+
+/*let usuario = "nico"
+let cont = "nico"
+
+if usuario == "nico" && cont == "nico"{
+    print("Estas Dentro")
+}
+else{
+    print("Incorrecto")
+}
+ */
+
+/*
+import UIKit
+var cadena = "soy nico"
+if cadena.contains("") {
+    print(cadena)
+}
+else{
+    print("Incorrecto")
+}
+ */
+
+/*
+let num1 = 88
+let num2 = 56
+let num3 = 145
+
+if num1 > num2 && num2 > num3{
+    print(num1, num2, num3)
+}
+if num1 > num2 && num2 < num3{
+    print(num1, num3, num2)
+}
+if num1 < num2 && num2 > num3{
+    print(num2, num1, num3)
+}
+if num1 < num2 && num2 < num3{
+    print(num3, num2, num1)
+}*/
+
+/*let nums = [10,9,8,7,6,5,4,3,2,1]
+var sum = 0
+
+for number in nums{
+    sum += number
+}
+print("suma" ,sum)
+print("media" ,sum/10)
+ */
+
+/*var num1 = 5
+var num2 = 8
+
+for nums in num2...num1  {
+    print(nums)
+}
+ */
+
+/*let horas: [Int] = [8,9,4,5,10,4]
+var sum = 0
+for total in horas {
+    sum += total
+}
+var sueldo = sum * 30
+print(sueldo)*/
+
+/*var factorial = 20
+var resultado = 1
+for n in 1...factorial{
+    resultado *= n
+}
+print(resultado)*/
